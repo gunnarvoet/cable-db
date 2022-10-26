@@ -1,0 +1,17 @@
+Buoys
+    discus_3m   type = axisymmetric
+                m = 1145
+                diameters = (0.0, 0.02) (1.99, 0.02) (2.0, 0.91)
+                            (2.3, 2.6) (2.8, 3.0) (2.96, 3.0)
+                Cdn = 1.0   Cdt = 1.0
+                Sw = 6.0    Cdw = 1.5
+                category = hulls
+
+   sphere_48in  type = sphere
+                m = 400
+                d = 1.23
+                Cdn = 0.6   Cdt = 0.6   
+                comment = "WHOI spheres have mass from 366 to 518 kg"
+                category = balls
+
+End

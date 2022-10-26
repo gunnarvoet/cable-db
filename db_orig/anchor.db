@@ -1,0 +1,10 @@
+Anchors
+
+    clump_500lb     category=cast
+
+    two_wheel_stack    category=wheels
+    three_wheel_stack  category=wheels
+
+    dormor_1000lb   category=shaped
+
+End
