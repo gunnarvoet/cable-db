@@ -1,0 +1,75 @@
+Buoys
+    discus_3m   type = axisymmetric
+                m = 1145
+                diameters = (0.0, 0.02) (1.99, 0.02) (2.0, 0.91)
+                            (2.3, 2.6) (2.8, 3.0) (2.96, 3.0)
+                Cdn = 1.0   Cdt = 1.0
+                Sw = 6.0    Cdw = 1.5
+                category = hulls
+
+    sphere_48in  type = sphere
+                m = 400
+                d = 1.23
+                Cdn = 0.6   Cdt = 0.6   
+                comment = "WHOI spheres have mass from 366 to 518 kg"
+                category = balls
+
+    steel37     type = sphere
+                m = 137
+                d = 0.94
+                height = 1
+                Cdn = 0.6   Cdt=0.6
+                buoyancy = 4366
+                Sw = 0      Cdw = 0
+                comment = "37in steel float"
+    foam57
+        category=balls
+        type=sphere
+        mass=900
+        diam=1.45
+        height=1.45
+        Cdt=0.6
+        Cdn=0.6
+        buoyancy=17540
+        Cdw=0
+        Sw=0
+    steel48
+        category=balls
+        type=sphere
+        mass=398
+        diam=1.22
+        height=0
+        Cdt=0.6
+        Cdn=0.6
+        buoyancy=9643.23
+        Cdw=0
+        Sw=0
+        comment="48in steel float"
+    "12B-3 Viny"
+        type=sphere
+        mass=3
+        diam=0.3
+        height=0.3
+        Cdt=0.6
+        Cdn=0.6
+        buoyancy=235.44
+        Cdw=0
+        Sw=0
+        comment="small plastiv float with 20kg buoyancy"
+    '49" flotec 1500m'
+        category=balls
+        type=linear
+        diam=1.25
+        wet=-1805
+        mass=648
+        length=2
+        Cdn=0.6
+        Cdt=0.6
+        EA=5e+07
+        EI=10000
+        GJ=10000
+        SWL=0
+        yield=0
+        comment="with longranger"
+
+End
