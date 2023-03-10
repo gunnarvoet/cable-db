@@ -56,20 +56,23 @@ Buoys
         Cdw=0
         Sw=0
         comment="small plastiv float with 20kg buoyancy"
-    '49" flotec 1500m'
-        category=balls
-        type=linear
-        diam=1.25
-        wet=-1805
-        mass=648
-        length=2
-        Cdn=0.6
-        Cdt=0.6
-        EA=5e+07
-        EI=10000
-        GJ=10000
-        SWL=0
-        yield=0
-        comment="with longranger"
+        
+    /* the below had been copied from the materials section */
+    /* but needs to be adjusted to work as a float */
+    /* '49" flotec 1500m' */
+    /*     category=balls */
+    /*     type=linear */
+    /*     diam=1.25 */
+    /*     wet=-1805 */
+    /*     mass=648 */
+    /*     length=2 */
+    /*     Cdn=0.6 */
+    /*     Cdt=0.6 */
+    /*     EA=5e+07 */
+    /*     EI=10000 */
+    /*     GJ=10000 */
+    /*     SWL=0 */
+    /*     yield=0 */
+    /*     comment="with longranger" */
 
 End

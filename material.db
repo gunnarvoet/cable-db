@@ -158,6 +158,17 @@ materials
         GJ=10000
         SWL=0
         yield=0
+
+    /* Let's make sure that the syntactic foam float actually provides
+     * (approximately) the right buoyancy.  Per spreadsheet, a 49" float has
+     * about 400kg buoyancy. We need to include the longranger wet weight.  In
+     * this database we have a Longranger with 1/2" stainless steel frame at
+     * 1000N/m wet weight.  The RDI data sheet has the wet weight of a 1500m LR
+     * at 55kg which would translate into a wet weight of about 550N/m.
+     * Batteries probably add ~20kg (5 per pack?) or 200N/m.  This would give
+     * us 3200N/m.  The wet weight 1805 * 2 is 3610N/m so pretty close and good
+     * enough for now.
+     */
     '49" flotec 1500m'
         category=floatation
         type=linear
