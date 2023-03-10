@@ -20,6 +20,13 @@ Connectors
         diam=0.04826
         Cdt=0
         Cdn=1
+    thermistor
+        category=instrument
+        mass=0.3
+        wet=1.0
+        diam=0.02
+        Cdt=0
+        Cdn=1
     chipod_delrin
         category=instrument
         mass=12.27
