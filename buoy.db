@@ -56,6 +56,17 @@ Buoys
         Cdw=0
         Sw=0
         comment="small plastiv float with 20kg buoyancy"
+    dummy
+        type=sphere
+        mass=1
+        diam=0.1
+        height=0.1
+        Cdt=0.6
+        Cdn=0.6
+        buoyancy=200
+        Cdw=0
+        Sw=0
+        comment="dummy float"
         
     /* the below had been copied from the materials section */
     /* but needs to be adjusted to work as a float */
