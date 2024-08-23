@@ -1,3 +1,5 @@
+/* vim: set filetype=c : */
+
 materials
     VMCM
         category=instrument
@@ -184,6 +186,177 @@ materials
         SWL=0
         yield=0
         comment="with longranger"
+    /* The following is a 49" 1500m float WITHOUT AN ADCP.
+     * Buoyancy is 419 kg. Dry weight 580 kg.
+     */
+    '49" DWB 1500m'
+        category=floatation
+        type=linear
+        diam=1.25
+        wet=-2055
+        mass=580
+        length=2
+        Cdn=0.6
+        Cdt=0.6
+        EA=5e+07
+        EI=10000
+        GJ=10000
+        SWL=0
+        yield=0
+        comment="no adcp"
+    /* Add a 1500m LR */
+    '49" DWB 1500m with LR 1500m'
+        category=floatation
+        type=linear
+        diam=1.25
+        wet=-1715
+        mass=580
+        length=2
+        Cdn=0.6
+        Cdt=0.6
+        EA=5e+07
+        EI=10000
+        GJ=10000
+        SWL=0
+        yield=0
+        comment="with LR 1500m rated"
+    /* Add a 3000m LR */
+    '49" DWB 1500m with LR 3000m'
+        category=floatation
+        type=linear
+        diam=1.25
+        wet=-1652
+        mass=580
+        length=2
+        Cdn=0.6
+        Cdt=0.6
+        EA=5e+07
+        EI=10000
+        GJ=10000
+        SWL=0
+        yield=0
+        comment="with LR 3000 rated"
+    /* The following is a 49" 3500m float WITHOUT AN ADCP.
+     * Buoyancy is 342 kg. Dry weight is 657 kg.
+     */
+    '49" DWB 3500m'
+        category=floatation
+        type=linear
+        diam=1.25
+        wet=-1678
+        mass=657
+        length=2
+        Cdn=0.6
+        Cdt=0.6
+        EA=5e+07
+        EI=10000
+        GJ=10000
+        SWL=0
+        yield=0
+        comment="no adcp"
+    /* Add a 1500m LR */
+    '49" DWB 3500m with LR 1500m'
+        category=floatation
+        type=linear
+        diam=1.25
+        wet=-1338
+        mass=657
+        length=2
+        Cdn=0.6
+        Cdt=0.6
+        EA=5e+07
+        EI=10000
+        GJ=10000
+        SWL=0
+        yield=0
+        comment="with LR 1500m rated"
+    /* Add a 3000m LR */
+    '49" DWB 3500m with LR 3000m'
+        category=floatation
+        type=linear
+        diam=1.25
+        wet=-1275
+        mass=657
+        length=2
+        Cdn=0.6
+        Cdt=0.6
+        EA=5e+07
+        EI=10000
+        GJ=10000
+        SWL=0
+        yield=0
+        comment="with LR 3000m rated"
+
+    /* The following is a 45" 1500m float WITHOUT AN ADCP.
+     * Buoyancy is 316 kg. Dry weight is 439 kg.
+     */
+    '45" DWB 1500m'
+        category=floatation
+        type=linear
+        diam=1.14
+        wet=-1550
+        mass=439
+        length=2
+        Cdn=0.6
+        Cdt=0.6
+        EA=5e+07
+        EI=10000
+        GJ=10000
+        SWL=0
+        yield=0
+        comment="no adcp"
+    /* Add a 1500m LR */
+    '45" DWB 1500m with LR 1500m'
+        category=floatation
+        type=linear
+        diam=1.14
+        wet=-1210
+        mass=439
+        length=2
+        Cdn=0.6
+        Cdt=0.6
+        EA=5e+07
+        EI=10000
+        GJ=10000
+        SWL=0
+        yield=0
+        comment="with LR 1500m rated"
+
+    /* The following is a 45" 600m float WITHOUT AN ADCP.
+     * Buoyancy is 356kg. Dry weight is estimated 440kg.
+     */
+    '45" DWB 600m'
+        category=floatation
+        type=linear
+        diam=1.14
+        wet=-1746
+        mass=440
+        length=2
+        Cdn=0.6
+        Cdt=0.6
+        EA=5e+07
+        EI=10000
+        GJ=10000
+        SWL=0
+        yield=0
+        comment="no adcp"
+    /* Add a 1500m LR */
+    '45" DWB 600m with LR 1500m'
+        category=floatation
+        type=linear
+        diam=1.14
+        wet=-1424
+        mass=440
+        length=2
+        Cdn=0.6
+        Cdt=0.6
+        EA=5e+07
+        EI=10000
+        GJ=10000
+        SWL=0
+        yield=0
+        comment="with LR 1500m rated"
+
     balls_1/2in
         category=chain
         type=linear

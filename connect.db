@@ -37,8 +37,15 @@ Connectors
     chipod_aluminum
         category=instrument
         mass=17.27
-        wet=61.803
+        wet=70.6
         diam=0.2
+        Cdt=0
+        Cdn=1
+    aquadopp_dw
+        category=instrument
+        mass=8.4
+        wet=55
+        diam=0.15
         Cdt=0
         Cdn=1
     dummy
