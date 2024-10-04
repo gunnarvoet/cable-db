@@ -81,6 +81,10 @@ Connectors
         diam=0.744
         Cdt=0
         Cdn=1
+    WH300_6k_weight_only
+        wet=130
+        diam=0.01
+        Cdn=1
     shackle
         d   = 0.03 /* 0.03 m = 1.25 in */
 		m   = 0.05 /* 1/4" shackle = 1.9 ounces (.12 lb) */
